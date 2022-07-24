@@ -1,0 +1,43 @@
+:root {
+    /* COLORS */
+    --main-color: #0065FC;
+    --secondary-color: #DEEBFF;
+    --main-bg-color: #F2F2F2;
+
+    /* FONTS */
+    --main-font-family: Raleway, Arial, Helvetica, sans-serif;
+    --bold-font:700;
+    --extra-bold-font: 800;
+
+    /* RADIUS */
+    --radius-light: 12px;
+    --radius-light-ext: 15px;
+    --radius-large:30px;
+
+    /* SHADOW */
+    --shadow-card: 0 5px 10px rgb(226, 226, 226);
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+h1{
+  font-size: 16px;
+  margin: 0;
+  font-weight: var(--extra-bold-font);
+}
+
+main{
+  margin: 0 10px 20px 10px;
+}
+
+input::placeholder {
+  color: black;
+}

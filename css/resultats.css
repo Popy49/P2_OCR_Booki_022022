@@ -1,0 +1,228 @@
+.card {
+    background-color: white;
+    border-radius: var(--radius-light-ext);
+    padding: 3px;
+    box-shadow: var(--shadow-card);
+}
+
+.width180 {
+    width: 180px;
+}
+
+.miniatureCard {
+    height:100%;
+    width:100%;
+    object-fit: cover;
+}
+
+.radius-top {
+    border-radius: var(--radius-light) var(--radius-light) 0 0;
+}
+
+
+.cardTitle{
+    font-weight: var(--bold-font);
+    margin-bottom: 3px;
+    margin-top: 7px;
+    font-size: 12px;
+}
+
+.textCard {
+    margin-left: 8px;
+}
+
+.imageCardDate {
+    height: 80px;
+    overflow: hidden;
+}
+
+.stars{
+    display: flex;
+    gap: 3px;
+    margin-top: 5px;
+    margin-bottom: 3px;
+}
+
+.star {
+    font-size: 9px;
+    letter-spacing: -3px;
+}
+
+.blue {
+    color : var(--main-color);
+}
+
+.grey {
+    color: var(--main-bg-color);
+}
+
+.textMedium{
+    font-size: 11px;
+    margin-bottom: 5px;
+}
+
+@media screen and (max-width: 768px)
+{
+
+    .card{
+        width: 100%;
+    }
+    
+}
+
+.imageCardPop {
+    height: 90px;
+    width: 80px;
+    overflow: hidden;
+}
+
+.radius-left {
+    border-radius: var(--radius-light) 0 0 var(--radius-light);
+}
+
+.width230 {
+    display: flex;
+    width: 230px;
+}
+
+.marginTop3 {
+    margin-top: 22px;
+}
+
+.stars{
+    margin-top: auto;
+    margin-bottom: 10px;
+}
+
+.textCardPop{
+    margin-left: 15px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    max-width: 130px;
+}
+
+#resultats {
+    display: flex;
+    flex-direction: row;
+}
+
+.resultat{
+    background-color: var(--main-bg-color);
+    margin: 15px;
+    border-radius: var(--radius-light-ext);
+    padding: 25px 20px;
+}
+
+.cardListe{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#hebergements {
+    width: 70%;
+    flex-direction: row;
+
+}
+
+#hebergements>h4 {
+    margin-left: 5px;
+
+}
+
+#populaire {
+    width: 30%;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.maxWidth {
+    width: 100%;
+    margin: 0;
+}
+
+.flexRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.flexRow>h4 {
+    margin: 0;
+}
+
+.afficher {
+    border : none;
+    font-weight:var(--bold-font);
+    flex-grow: 3;
+    text-align: start;
+    background-color: transparent;
+    font-size: 13px;
+}
+
+@media screen and (max-width: 768px){
+    #resultats {
+        flex-direction: column-reverse;
+    }
+
+    #hebergements {
+        margin-left: 0;
+        margin-right: 0;
+        box-sizing: border-box;
+        background-color: white;
+        width: 100vw;
+        position: relative;
+        left: calc(-50vw + 50%);
+    }
+    
+    #populaire {
+        margin-left: 0;
+        margin-right: 0;
+        box-sizing: border-box;
+        border-radius: 0;
+        width: 100vw;
+        position: relative;
+        left: calc(-50vw + 50%);
+
+    }
+
+    .width230 {
+        width: 100%;
+    }
+
+    .imageCardPop{
+        height: 130px;
+        min-width: 120px;
+    }
+
+    h4, .flexRow{
+        font-size: 20px;
+    }
+
+    .cardTitle, .afficher{
+        font-size: 17px;
+    }
+
+    .textMedium{
+        font-size: 14px;
+    }
+
+    .star {
+        font-size: 11px;
+    }
+
+    .imageCardDate{
+        height: 110px;
+    }
+
+    .cardListe{
+        gap:10px
+    }
+
+
+}

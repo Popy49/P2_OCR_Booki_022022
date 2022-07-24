@@ -1,0 +1,81 @@
+#activite{
+    display: flex;
+    flex-flow: column wrap;
+    align-content: space-between;
+    height: 330px;
+    margin: 5px 20px 20px 20px;
+}
+
+#activités>h4{
+    margin: 20px 20px 0 20px;
+}
+
+.cardActivite{
+    box-shadow:var(--shadow-card);
+    border-radius: var(--radius-light);
+    padding-bottom: 5px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.cardTitleActivity{
+    font-size: 12px;
+    margin: 10px 0 10px 5px;
+}
+
+.width220{
+    width: 22%;
+}
+
+
+.card100{
+    height: 275px;
+}
+
+.card50{
+    height: 91px;
+}
+
+.card75{
+    height: 120px;
+}
+
+.card25{
+    height: 80px;
+}
+
+@media screen and (max-width: 767px){
+    #activite{
+        display: flex;
+        flex-flow: column;
+        align-content: space-between;
+        height: 330px;
+        margin: 5px;
+    }
+
+    #activités{
+        padding: 5px;
+    }
+
+    #activités>h4{
+        margin: 10px 20px 20px 5px;
+    }
+
+    .width220{
+        width: 100%;
+    }
+
+    .cardActivite{
+        margin-bottom: 20px;
+    }
+
+    .card100, .card50, .card75, .card25{
+        height: 140px;
+    }
+
+    .cardTitleActivity{
+        font-size: 16px;
+        margin: 16px 0 10px 5px;
+    }
+    
+}
