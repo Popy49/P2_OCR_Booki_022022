@@ -13,4 +13,4 @@ No installation needed. Just clone the repo and launch the index.html
 ## 3. Demo and preview
 You can see the demo : https://popy49.github.io/P2_OCR_Booki_022022/
 
-
+![Preview](./p2desk.png?raw=true "preview")
